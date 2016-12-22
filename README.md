@@ -1,2 +1,4 @@
 # ezparse-ressources
-Resources that should be updated independently from ezPAARSE source code: predefined settings for various institutions' proxies log formats.
+Resources that should be updated independently from ezPAARSE source code.
+
+Namely: predefined settings for various institutions' proxies log formats.

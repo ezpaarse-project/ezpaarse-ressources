@@ -121,6 +121,7 @@
       "istex-enrich": "true",
       "istex-ttl": "3600",
       "Crypted-Fields": "none",
+      "crossref-enrich": "false",
       "Log-Format-apache": "%h %<\"?>%{istex-id}<[^ ]+>%<\"?> %<\"?>%{owner}<[^\"]+>%<\"?> %u %t \"%r\" %{status}<[0-9]+> %b \"%{referer}<[^\"]+>\" \"%{user-agent}<[^\"]+>\" %{sid}<[^ ]+>",
       "Output-Fields": "+login,+istex_rtype,+istex_genre,-platform,+publisher_name,+language,+publication_date,-identd,-domain,-title_id,+doi-publication-date-year"
     }
@@ -133,6 +134,7 @@
       "istex-enrich": "true",
       "istex-ttl": "3600",
       "Crypted-Fields": "none",
+      "crossref-enrich": "false",
       "Output-Fields": "+login,+istex_rtype,+istex_genre,-platform,+publisher_name,+language,+publication_date,-identd,-domain,-title_id,+doi-publication-date-year"
     }
   },
@@ -165,7 +167,6 @@
       "Crypted-Fields": "none",
       "Output-Fields": "+pii,+sudoc-ppn",
       "crossref-enrich": "true",
-      "elsevier-enrich": "true",
       "sudoc-enrich": "true"
     }
   },

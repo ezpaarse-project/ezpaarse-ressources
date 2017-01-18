@@ -123,7 +123,7 @@
       "Crypted-Fields": "none",
       "crossref-enrich": "false",
       "Log-Format-apache": "%h %<\"?>%{istex-id}<[^ ]+>%<\"?> %<\"?>%{owner}<[^\"]+>%<\"?> %u %t \"%r\" %{status}<[0-9]+> %b \"%{referer}<[^\"]+>\" \"%{user-agent}<[^\"]+>\" %{sid}<[^ ]+>",
-      "Output-Fields": "+login,+istex_rtype,+istex_genre,-platform,+publisher_name,+language,+publication_date,-identd,-domain,-title_id,+doi-publication-date-year"
+      "Output-Fields": "+login,+istex_rtype,+istex_genre,-platform,+publisher_name,+language,+publication_date,+subject,-identd,-domain,-title_id,+doi-publication-date-year"
     }
   },
   "00-fr-istex-2": {
@@ -135,7 +135,7 @@
       "istex-ttl": "3600",
       "Crypted-Fields": "none",
       "crossref-enrich": "false",
-      "Output-Fields": "+login,+istex_rtype,+istex_genre,-platform,+publisher_name,+language,+publication_date,-identd,-domain,-title_id,+doi-publication-date-year"
+      "Output-Fields": "+login,+istex_rtype,+istex_genre,-platform,+publisher_name,+language,+publication_date,+subject,-identd,-domain,-title_id,+doi-publication-date-year"
     }
   },
   "00-eu-openaire": {

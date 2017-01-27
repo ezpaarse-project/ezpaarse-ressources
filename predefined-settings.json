@@ -216,6 +216,17 @@
       "Crypted-Fields": "none"
     }
   },
+  "01-fr-univ-rennes-1-ezmesure": {
+    "fullName": "Université de Rennes 1 - ezMESURE",
+    "country": "France",
+    "headers": {
+      "Log-Format-ezproxy": "%h %u %{ezproxy-groups}i %t \"%r\" %s %b %<.*>",
+      "Output-Fields": "+ezproxy-groups,+id,+pii,+sudocppn,+ezproxy-groups,-platform,-identd,-size,-status",
+      "Crypted-Fields": "host,login"
+    }
+  },
+
+
   "01-fr-univ-rennes-2": {
     "fullName": "Université de Rennes 2",
     "country": "France",

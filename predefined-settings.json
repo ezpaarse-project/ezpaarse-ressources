@@ -117,7 +117,7 @@
     "fullName": "ISTEX",
     "country": "France",
     "headers": {
-      "EZPAARSE-Filter-Redirects": "true",
+      "EZPAARSE-Filter-Redirects": "false",
       "Force-Parser": "istex",
       "istex-enrich": "true",
       "istex-ttl": "3600",

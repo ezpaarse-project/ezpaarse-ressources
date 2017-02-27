@@ -456,6 +456,13 @@
       "Log-Format-ezproxy": "%h %l %u %t \"%r\" %s %b %{referer}<.*?>"
     }
   },
+  "10-ire-ucd": {
+    "fullName": "University College Dublin Library",
+    "country": "Ireland",
+    "headers": {
+      "Log-Format-ezproxy": "%h %l %u %t \"%r\" %s %b \"%{user-agent}<.+>\" %{domain}<.+>"
+    }
+  },  
   "01-fr-univ-jm": {
     "fullName": "Saint-Étienne - Université Jean Monnet (UJM)",
     "country": "France",

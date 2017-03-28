@@ -117,7 +117,7 @@
     "fullName": "ISTEX",
     "country": "France",
     "headers": {
-      "EZPAARSE-Filter-Redirects": "false",
+      "EZPAARSE-Filter-Status": "false",
       "Force-Parser": "istex",
       "istex-enrich": "true",
       "istex-ttl": "3600",
@@ -183,7 +183,7 @@
     "fullName": "Université Paris Descartes Bibliopam",
     "country": "France",
     "headers": {
-      "Crypted-Fields": "none"    
+      "Crypted-Fields": "none"
     }
   },
   "01-fr-ec-lyon": {
@@ -205,7 +205,7 @@
     "headers": {
       "Log-Format-ezproxy": "%h %u %{groups}<[a-zA-Z\\+\\.\\-]+> %{ezproxy-session} %t \"%r\" %s %b",
       "Output-Fields": "-platform,-ezproxy-session,-status,-size",
-      "Crypted-Fields": "none"      
+      "Crypted-Fields": "none"
     }
   },
   "01-fr-univ-rennes-1": {
@@ -278,7 +278,7 @@
     "country": "France",
     "headers": {
       "Log-Format-apache": "%{epoch},%h,%b,%<[\"]?>%{ress-name}<[^\"]+?>%<[\"]?>,%U,%>s,%<[\"]?>%{mt}<[a-zA-Z0-9-/ \"=_+;.]+>%<[\"]?>,%{profil1}<[a-zA-Z0-9-/ \"=+;_]+>,%{uid},%{session-id},%<\"?>%{profil2}<[^\"]*?>%<\"?>",
-      "Crypted-Fields": "none"      
+      "Crypted-Fields": "none"
     }
   },
   "01-fr-univ-limoges": {
@@ -286,7 +286,7 @@
     "country": "France",
     "headers": {
       "Log-Format-ezproxy": "%h %{session}<[a-zA-Z0-9\\-\\+]+> %u %t \"%r\" %s %b %{user}<[a-zA-Z0-9\\-\\+,]+>",
-      "Crypted-Fields": "none"      
+      "Crypted-Fields": "none"
     }
   },
   "01-fr-univ-montpellier": {
@@ -302,7 +302,7 @@
     "country": "France",
     "headers": {
       "Log-Format-squid": "%<A:%lp %>a %ui %[un [%tl] \"%rm %ru HTTP/%rv\" %>Hs %<st %<.*>",
-      "Crypted-Fields": "none"      
+      "Crypted-Fields": "none"
     }
   },
   "01-fr-univ-paris-1": {
@@ -310,7 +310,7 @@
     "country": "France",
     "headers": {
       "Log-Format-ezproxy": "%h %{session} %u %t \"%r\" %s %b",
-      "Crypted-Fields": "none"      
+      "Crypted-Fields": "none"
     }
   },
   "01-fr-univ-paris-8": {
@@ -318,7 +318,7 @@
     "country": "France",
     "headers": {
       "Log-Format-ezproxy": "%h - %u %{group} %{session}<[a-zA-Z0-9\\-\\+]+> %t \"%r\" %s %b %{domain}<[^ ]+>",
-      "Crypted-Fields": "none"      
+      "Crypted-Fields": "none"
     }
   },
   "01-fr-univ-paris-11": {
@@ -333,7 +333,7 @@
     "country": "France",
     "headers": {
       "Log-Format-ezproxy": "%h %l %u %t \"%r\" %s %b - -  %{revue}<[a-zA-Z0-9\\-\\+,]+> %{discipline}<[a-zA-Z0-9\\-\\+,]+> %<.*>",
-      "Crypted-Fields": "none"     
+      "Crypted-Fields": "none"
     }
   },
   "01-fr-univ-vhc": {
@@ -462,7 +462,7 @@
     "headers": {
       "Log-Format-ezproxy": "%h %l %u %t \"%r\" %s %b \"%{user-agent}<.+>\" %{domain}<.+>"
     }
-  },  
+  },
   "01-fr-univ-jm": {
     "fullName": "Saint-Étienne - Université Jean Monnet (UJM)",
     "country": "France",

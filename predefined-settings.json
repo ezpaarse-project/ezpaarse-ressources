@@ -131,6 +131,7 @@
     "fullName": "ISTEX-LIGHT (avant 18/10/2016)",
     "country": "France",
     "headers": {
+      "EZPAARSE-Filter-Status": "false",
       "Force-Parser": "istex",
       "istex-enrich": "true",
       "istex-ttl": "3600",

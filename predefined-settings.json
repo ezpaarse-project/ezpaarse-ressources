@@ -92,7 +92,7 @@
     "fullName": "Université du Maine > 24/03/2017",
     "country": "France",
     "headers": {
-      "Log-Format-ezproxy": "Log-Format-ezproxy:%h %l %u %t \"%r\" %s %b %{composante}<[a-zA-Z0-9@\\.\\-_%\\,=\\+\\'\\ ]+>%<[\\;]>%{libetape}<[a-zA-Z0-9@\\.\\-_%\\,=\\+\\'\\ ]+>%<[\\;]>%{affiliation}<[a-zA-Z0-9@\\.\\-_%\\,=\\+\\ ]+>%<[\\;]>%{codeetape}<[a-zA-Z0-9@\\.\\-_%\\,=\\+\\ ]+>%<[\\;]>%{enseignant}<[a-zA-Z0-9@\\.\\-_%\\,=\\+\\'\\ ]+>%<[\\;]>%{description}<[a-zA-Z0-9@\\.\\-_%\\,=\\+\\'\\ ]+>",
+      "Log-Format-ezproxy": "%h %l %u %t \"%r\" %s %b %{composante}<[a-zA-Z0-9@\\.\\-_%\\,=\\+\\'\\ ]+>%<[\\;]>%{libetape}<[a-zA-Z0-9@\\.\\-_%\\,=\\+\\'\\ ]+>%<[\\;]>%{affiliation}<[a-zA-Z0-9@\\.\\-_%\\,=\\+\\ ]+>%<[\\;]>%{codeetape}<[a-zA-Z0-9@\\.\\-_%\\,=\\+\\ ]+>%<[\\;]>%{enseignant}<[a-zA-Z0-9@\\.\\-_%\\,=\\+\\'\\ ]+>%<[\\;]>%{description}<[a-zA-Z0-9@\\.\\-_%\\,=\\+\\'\\ ]+>",
       "Crypted-Fields": "none"
     }
   },

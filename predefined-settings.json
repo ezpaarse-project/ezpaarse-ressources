@@ -397,6 +397,13 @@
     "fullName": "University of Minnesota Libraries",
     "country": "United States"
   },
+  "10-us-emory": {
+    "fullName": "Emory University",
+    "country": "United States",
+    "headers": {
+      "Log-Format-ezproxy":"%h %{ezproxy-session}i %u %t \"%r\" %s %b %{referer}<[^ ]+> %{ezproxy-groups}<[a-zA-Z0-9+]+>"
+    }
+  },
   "10-us-loy": {
     "fullName": "Loyola University Chicago",
     "country": "United States",

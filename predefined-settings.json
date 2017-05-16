@@ -328,6 +328,13 @@
     "fullName": "Université Paris 8",
     "country": "France",
     "headers": {
+      "Crypted-Fields": "none"
+    }
+  },
+  "01-fr-univ-paris-8-avt-06-2016": {
+    "fullName": "Université Paris 8 < juin 2016",
+    "country": "France",
+    "headers": {
       "Log-Format-ezproxy": "%h - %u %{group} %{session}<[a-zA-Z0-9\\-\\+]+> %t \"%r\" %s %b %{domain}<[^ ]+>",
       "Crypted-Fields": "none"
     }

@@ -238,8 +238,15 @@
       "Crypted-Fields": "host,login"
     }
   },
-
-
+  "01-fr-univ-evry-val-essonne": {
+    "fullName": "Université Evry Val d'Essonne",
+    "country": "France",
+    "headers": {
+      "Log-Format-ezproxy": "%h %l %u %t \"%r\" \"%{platform-name}<[a-zA-Z0-9 \\-]+>\" %s %b \"%{categorie}<.*>\" \"%{affiliation}<.*>\" \"%{etablissement}<.*>\" %{ipsortie}<.*>",
+      "Date-Format": "YYYY-MM-DD hh:mm:ss",
+      "Crypted-Fields": "none"
+    }
+  },
   "01-fr-univ-rennes-2": {
     "fullName": "Université de Rennes 2",
     "country": "France",

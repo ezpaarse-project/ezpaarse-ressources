@@ -471,7 +471,7 @@
     "fullName": "Université Lille 2",
     "country": "France",
     "headers": {
-      "Log-Format-ezproxy": "%h %{ezproxy-groups}<[a-zA-Z0-9+]+> %l %u %t \"%r\" %s %b",
+      "Log-Format-ezproxy": "%h %{ezproxy-groups}<[a-zA-Z0-9+_]+> %l %u %t \"%r\" %s %b",
       "Crypted-Fields": "none"
     }
   },

@@ -134,6 +134,21 @@
       "Crypted-Fields": "none",
       "crossref-enrich": "false",
       "ezPAARSE-Middlewares": "(before istex) user-agent-parser",
+      "Log-Format-apache": "%h %<\"?>%{istex-id}<[^ ]+>%<\"?> %<\"?>%{owner}<[^\"]+>%<\"?> %<\"?>%{idp}<[^\"]+>%<\"?> %u %t \"%r\" %{status}<[0-9]+> %b \"%{referer}<[^\"]+>\" \"%{user-agent}<[^\"]+>\" %{sid}<[^ ]+> %<\"?>%{auth}<[^ \"]+>%<\"?>",
+      "Output-Fields": "+login,+istex_rtype,+istex_genre,-platform,+publisher_name,+language,+publication_date,+subject,-identd,-domain,-title_id,+doi-publication-date-year"
+    }
+  },
+  "00-fr-istex-1": {
+    "fullName": "ISTEX(de 19/10/2016 à 22/09/2017)",
+    "country": "France",
+    "headers": {
+      "EZPAARSE-Filter-Status": "false",
+      "Force-Parser": "istex",
+      "istex-enrich": "true",
+      "istex-ttl": "3600",
+      "Crypted-Fields": "none",
+      "crossref-enrich": "false",
+      "ezPAARSE-Middlewares": "(before istex) user-agent-parser",
       "Log-Format-apache": "%h %<\"?>%{istex-id}<[^ ]+>%<\"?> %<\"?>%{owner}<[^\"]+>%<\"?> %u %t \"%r\" %{status}<[0-9]+> %b \"%{referer}<[^\"]+>\" \"%{user-agent}<[^\"]+>\" %{sid}<[^ ]+>",
       "Output-Fields": "+login,+istex_rtype,+istex_genre,-platform,+publisher_name,+language,+publication_date,+subject,-identd,-domain,-title_id,+doi-publication-date-year"
     }

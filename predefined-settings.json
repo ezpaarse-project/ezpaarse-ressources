@@ -83,7 +83,7 @@
       "Crypted-Fields": "none",
       "crossref-enrich": "false",
       "ezPAARSE-Middlewares": "(before istex) user-agent-parser",
-      "Log-Format-apache": "%h %<\"?>%{istex-id}<[^ ]+>%<\"?> %<\"?>%{owner}<[^\"]+>%<\"?> %<\"?>%{idp}<[^\"]+>%<\"?> %u %t \"%r\" %{status}<[0-9]+> %b \"%{referer}<[^\"]+>\" \"%{user-agent}<[^\"]+>\" %{sid}<[^ ]+> %<\"?>%{auth}<[^ \"]+>%<\"?>",
+      "Log-Format-apache": "%h %<\"?>%{istex-id}<[^ ]+?>%<\"?> %<\"?>%{owner}<[^\"]+>%<\"?> %<\"?>%{idp}<[^\"]+>%<\"?> %u %t \"%r\" %{status}<[0-9]+> %b \"%{referer}<[^\"]+>\" \"%{user-agent}<[^\"]+>\" %{sid}<[^ ]+> %<\"?>%{auth}<[^ \"]+>%<\"?>",
       "Output-Fields": "+login,+istex_rtype,+istex_genre,-platform,+publisher_name,+language,+publication_date,+subject,-identd,-domain,-title_id,+doi-publication-date-year"
     }
   },
@@ -98,7 +98,7 @@
       "Crypted-Fields": "none",
       "crossref-enrich": "false",
       "ezPAARSE-Middlewares": "(before istex) user-agent-parser",
-      "Log-Format-apache": "%h %<\"?>%{istex-id}<[^ ]+>%<\"?> %<\"?>%{owner}<[^\"]+>%<\"?> %u %t \"%r\" %{status}<[0-9]+> %b \"%{referer}<[^\"]+>\" \"%{user-agent}<[^\"]+>\" %{sid}<[^ ]+>",
+      "Log-Format-apache": "%h %<\"?>%{istex-id}<[^ ]+?>%<\"?> %<\"?>%{owner}<[^\"]+>%<\"?> %u %t \"%r\" %{status}<[0-9]+> %b \"%{referer}<[^\"]+>\" \"%{user-agent}<[^\"]+>\" %{sid}<[^ ]+>",
       "Output-Fields": "+login,+istex_rtype,+istex_genre,-platform,+publisher_name,+language,+publication_date,+subject,-identd,-domain,-title_id,+doi-publication-date-year"
     }
   },

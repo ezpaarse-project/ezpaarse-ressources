@@ -169,9 +169,10 @@
     "fullName": "HAL - Archives Ouvertes",
     "country": "France",
     "headers": {
+      "Log-Format-apache": "%{Syslog_Date}<[a-zA-Z]{3} \\d{2} \\d{2}:\\d{2}:\\d{2}> %{Machine_Name} %{httpd}: %U %h - - %t \"%r\" %>s %b \"%{Referer}<.+?>\" \"%{User_Agent}<.*>\"",
       "Crypted-Fields": "none",
       "Force-Parser": "hal",
-      "Output-Fields": "-login,-platform,-platform_name,-publisher_name,-rtype,-online_identifier,-print_identifier,-doi,-publication_title,-identd,-domain"
+      "Output-Fields": "-login,-platform,-platform_name,-publisher_name,-rtype,-online_identifier,-print_identifier,-doi,-publication_title,-identd,-domain,+collection"
     }
   },
   "00-eu-openaire": {

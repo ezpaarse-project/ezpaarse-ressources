@@ -152,7 +152,7 @@
     "fullName": "Université de Grenoble - log enrichis",
     "country": "France",
     "headers": {
-      "Log-Format-ezproxy": "%{datesyslog}<[\\w\\ ]+> %{heure_syslog}<[\\d:]+\\w> %{serveur_grenet}<\\w+> %{ezproxy_instance}<[\\w-]+>%<: >%{site}<[a-z-0-9.]+>%<:[0-9]+> %h %{ezproxy-groups}<[\\w+\\-.]+> %{ezproxy-session}<[\\w-_]+> %u %t \"%r\" %s %b %<etab:>%{etab}<[\\w-_]+> %<group_structure:>%{group_structure}<[\\w_,]*> %<group_SHS:>%{group_shs}<[A-Za-z_,-]+> %<group_gael:>%{group_gael}<[\\w_,]+> %<status:>%{status_user}<[A-Z,\s-]+>%<on_campus:>%{on_campus}<[\\w]+>",
+      "Log-Format-ezproxy": "%{datesyslog}<[\\w\\ ]+> %{heure_syslog}<[\\d:]+\\w> %{serveur_grenet}<\\w+> %{ezproxy_instance}<[\\w-]+>%<: >%{site}<[a-z-0-9.]+>%<:[0-9]+> %h %{ezproxy-groups}<[\\w+\\-.]+> %{ezproxy-session}<[\\w-_]+> %u %t \"%r\" %s %b %<etab:>%{etab}<[\\w-_]+> %<group_structure:>%{group_structure}<[\\w_,]*> %<group_SHS:>%{group_shs}<[A-Za-z_,-]+> %<group_gael:>%{group_gael}<[\\w_,]+> %<status:>%{status_user}<[A-Z,\\s-]+>%<on_campus:>%{on_campus}<[\\w]+>",
       "Crypted-Fields": "host,login"
     }
   },

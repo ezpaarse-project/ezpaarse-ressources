@@ -404,7 +404,7 @@
     "fullName": "Université de Bourgogne",
     "country": "France",
     "headers": {
-      "Log-Format-ezproxy": "%h %u %{ezproxy-groups}i %t \"%r\" %s %b %{ufr}<[a-zA-Z0-9\-]+> %{etape}<[a-zA-Z0-9\-]+> %{diplome}<[a-zA-Z0-9\-]+> %{affiliation}<[a-zA-Z0-9]+> %{cursus}<[a-zA-Z0-9\-\{\}]+> %{secteur}<[a-zA-Z0-9\-\{\}]+>",
+      "Log-Format-ezproxy": "%h %u %{ezproxy-groups}i %t \"%r\" %s %b %{ufr}<[a-zA-Z0-9\\-]+> %{etape}<[a-zA-Z0-9\\-]+> %{diplome}<[a-zA-Z0-9\\-]+> %{affiliation}<[a-zA-Z0-9]+> %{cursus}<[a-zA-Z0-9\\-\\{\\}]+> %{secteur}<[a-zA-Z0-9\\-\\{\\}]+>",
       "Crypted-Fields": "none"
     }
   },

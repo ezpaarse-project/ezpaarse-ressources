@@ -140,6 +140,14 @@
       "Crypted-Fields": "host,login"
     }
   },
+  "00-fr-univ-savoie": {
+    "fullName": "Université Savoie Mont Blanc",
+    "country": "France",
+    "headers": {
+      "Log-Format-ezproxy": "%{datesyslog}<[\\w\\ ]+> %{heure_syslog}<[\\d:]+\\w> %{serveur_grenet}<\\w+> %{ezproxy_instance}<[\\w-]+>%<: >%{site}<[a-z-0-9.]+>%<:[0-9]+> %h %{ezproxy-groups}<[\\w+\\-.]+> %{ezproxy-session}<[\\w-_]+> %u %t \"%r\" %s %b",
+      "Crypted-Fields": "host,login"
+    }
+  },
   "00-fr-univ-grenoble": {
     "fullName": "Université de Grenoble",
     "country": "France",

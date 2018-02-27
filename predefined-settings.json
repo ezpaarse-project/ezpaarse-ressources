@@ -140,6 +140,14 @@
       "Crypted-Fields": "host,login"
     }
   },
+  "00-fr-univ-polynesie": {
+    "fullName": "Université de Polynésie Française",
+    "country": "France",
+    "headers": {
+      "Log-Format-ezproxy": "%h %l %u %{ezproxy-groups}i %t \"%r\" %s %b",
+      "Crypted-Fields": "host,login"
+    }
+  },
   "00-fr-univ-savoie": {
     "fullName": "Université Savoie Mont Blanc",
     "country": "France",

@@ -172,6 +172,22 @@
       "Crypted-Fields": "host,login"
     }
   },
+  "00-fr-univ-bordeaux-01": {
+    "fullName": "Université de Bordeaux Montaigne - bruts",
+    "country": "France",
+    "headers": {
+      "Log-Format-ezproxy": "%h %l %u %t \"%r\" %s %b %{ezproxy-session}i",
+      "Crypted-Fields": "host,login"
+    }
+  },
+  "00-fr-univ-bordeaux-02": {
+    "fullName": "Université de Bordeaux Montaigne - log enrichis",
+    "country": "France",
+    "headers": {
+      "Log-Format-ezproxy": "%h %l %u %t \"%r\" %s %b %{ezproxy-session}i %{UFR}<[A-Z]+> %{statusPerson}<[A-Za-z+]+>",
+      "Crypted-Fields": "host,login"
+    }
+  },
   "00-fr-univ-lemans": {
     "fullName": "Université du Maine > 24/03/2017",
     "country": "France",

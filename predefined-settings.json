@@ -399,6 +399,15 @@
     "Crypted-Fields": "none"
     }
   },
+  "01-fr-univ-vsq-reject-all": {
+    "fullName": "UVSQ - Bibliopam - Reject-all",
+    "country": "France",
+    "headers": {
+      "Log-Format-apache": "%{epoch},%h,%b,%{ress-name}<\"?[a-zA-Z0-9-/ �']+\"?>,%U,%>s,%{mt}<[a-zA-Z0-9-/ ;=\".+]+>,%{profil}<.+>,%{uid},%{session-id},",
+    "Crypted-Fields": "none",
+    "Reject-Files": "all"
+    }
+  },
   "01-fr-univ-vhc": {
     "fullName": "Université de Valenciennes et du Hainaut-Cambrésis",
     "country": "France",

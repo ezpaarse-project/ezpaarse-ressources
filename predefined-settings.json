@@ -323,7 +323,15 @@
       "Crypted-Fields": "none"
     }
   },
-  "01-fr-univ-toulouse-3": {
+  "01-fr-essec": {
+    "fullName": "ESSEC Buisness School",
+    "country": "France",
+    "headers": {
+      "Log-Format-ezproxy": "SRC_IP=%h|EZP_ID=%{session}|USER=%u|START_TIME=%t|HTTP_REQUEST=%U|PROXY_REQUEST=\\"%r\\"|WEBSITE=%{website}<[a-z0-9\\.\\:]+>|HTTP_CODE=%s|NB_BYTES=%b|GROUPS=%{groups}<[_A-Z0-9\\+]+>|" ",
+      "Crypted-Fields": "none"
+    }
+  },
+ "01-fr-univ-toulouse-3": {
     "fullName": "Université de Toulouse 3 BiblioPAM",
     "country": "France",
     "headers": {

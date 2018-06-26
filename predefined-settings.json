@@ -315,6 +315,14 @@
       "Crypted-Fields": "none"
     }
   },
+  "01-fr-univ-lyon-2": {
+    "fullName": "Université Lumière Lyon 2",
+    "country": "France",
+    "headers": {
+      "Log-Format-ezproxy": "%h %u %{ezproxy-session}i %t \"%r\" %s %b %{request-duration}<[0-9]+>",
+      "Crypted-Fields": "none"
+    }
+  },
   "01-fr-univ-lyon-3": {
     "fullName": "Université Lyon 3",
     "country": "France",

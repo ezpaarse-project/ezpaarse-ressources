@@ -343,7 +343,7 @@
     "fullName": "ESSEC Business School",
     "country": "France",
     "headers": {
-      "Log-Format-ezproxy": "SRC_IP=%h|EZP_ID=%{session}|USER=%u|START_TIME=%t|HTTP_REQUEST=%U|WEBSITE=%{website}<[a-z0-9\\.\\:]+>|HTTP_CODE=%s|NB_BYTES=%b|GROUPS=%{groups}<[_A-Z0-9\\+]+>",
+      "Log-Format-ezproxy": "SRC_IP=%h|EZP_ID=%{session}|USER=%u|START_TIME=%t|HTTP_REQUEST=%U|WEBSITE=%{website}<[a-z0-9\\.\\:]+>|HTTP_CODE=%s|NB_BYTES=%b|GROUPS=%{groups}<[_A-Z0-9\\+\\-]+>",
       "Crypted-Fields": "none"
     }
   },

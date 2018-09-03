@@ -335,7 +335,7 @@
     "fullName": "Université de Strasbourg",
     "country": "France",
     "headers": {
-      "Log-Format-ezproxy": "%t %h %h %u %U %b %{session}<[a-zA-Z0-9]+|\\->",
+      "Log-Format-ezproxy": "%t %h %s %u %U %b %{session}<[a-zA-Z0-9]+|\\->",
       "Crypted-Fields": "none"
     }
   },
@@ -394,11 +394,19 @@
       "Crypted-Fields": "none"
     }
   },
-  "01-fr-univ-paris-11": {
-    "fullName": "Université Paris 11",
+  "01-fr-univ-paris-sud-ezproxy": {
+    "fullName": "Université Paris Sud",
     "country": "France",
     "headers": {
       "Crypted-Fields": "none"
+    }
+  },
+    "01-fr-univ-paris-sud-squid": {
+    "fullName": "Université Paris Sud - Squid",
+    "country": "France",
+      "headers": {
+	"Log-Format-squid": "%tl %{response_time}<[0-9a-z-A-Z]+> %>a %Ss/%>Hs %<st %rm %ru - %Sh/%<a %mt",
+        "Crypted-Fields": "none"
     }
   },
   "01-fr-univ-pec": {

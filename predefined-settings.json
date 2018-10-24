@@ -386,6 +386,14 @@
       "Crypted-Fields": "none"
     }
   },
+  "01-fr-univ-montpellier-a": {
+    "fullName": "BIU de Montpellier 2018->",
+    "country": "France",
+    "headers": {
+      "Log-Format-ezproxy": "%h - %{login}<[a-zA-Z0-9\\-]+> %t \"%r\" %s %b %{ezproxy-groups}<[a-zA-Z0-9\\-]+> %{shib-supannEtablissement}<[\\{\\}a-zA-Z0-9]*> %{shib-eduPersonAffiliation}<[a-zA-Z0-9\\-]*> %<.*>",
+      "Crypted-Fields": "none"
+    }
+  },
   "01-fr-univ-paris-1": {
     "fullName": "Université Paris 1",
     "country": "France",

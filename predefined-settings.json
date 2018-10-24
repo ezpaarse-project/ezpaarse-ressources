@@ -236,7 +236,7 @@
       "Crypted-Fields": "none",
       "Force-Parser": "hal",
       "Hal-enrich": "true",
-      "ezPAARSE-Middlewares": ":bot-ua-detector,trackcode-generator,robots",
+      "ezPAARSE-Middlewares": "bot-ua-detector,trackcode-generator,robots",
       "ezPAARSE-Filter-Redirects": "false",
       "Output-Fields": "-login,-platform,-platform_name,-publisher_name,-online_identifier,-print_identifier,-unitid,-identd,-subject,-publication_date,+hal_fulltext,+hal_identifiant,+hal_consult_collection,+hal_consult_collection_sid,+hal_docid,+hal_endpoint_portail,+hal_endpoint_portail_sid,+hal_redirect_portail,+hal_redirect_start_portail,+hal_tampons,+hal_tampons_name,+hal_domains,+trackcode,+hal_redirection,-date,-Syslog_Date,-httpd,-type,-title_id,-doi"
     }

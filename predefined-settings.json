@@ -370,6 +370,14 @@
       "Crypted-Fields": "none"
     }
   },
+ "01-fr-univ-toulouse-1": {
+    "fullName": "Université de Toulouse 1 Capitole - BiblioPAM",
+    "country": "France",
+    "headers": {
+      "Log-Format-apache": "%{epoch},%h,%b,%<[\"]?>%{ress-name}<[^\"]+?>%<[\"]?>,%U,%>s,%<[\"]?>%{mt}<[a-zA-Z0-9-/ \"=_+;.]+>%<[\"]?>,%{profil1}<[a-zA-Z0-9-/ \"=+;_]+>,%{uid},%{session-id},%<\"?>%{profil2}<[^\"]*?>%<\"?>",
+      "Crypted-Fields": "none"
+    }
+  },
   "01-fr-univ-limoges": {
     "fullName": "Université de Limoges",
     "country": "France",

@@ -70,7 +70,7 @@
       "Force-ECField-Publisher": "Irevues",
       "Disable-Filters": "robots",
       "Output-Fields": "+pid,+robot,-domain,-online_identifier,-print_identifier,-platform_name,-identd,-doi",
-      "Log-Format-Apache": "%{host}<[a-zA-Z0-9.\\-:]+(?:, ?[a-zA-Z0-9.\\-:]+)*> %l %u %t \"%r\" %>s %b \"%{referer}<[^ "]+>\" \"%{user-agent}<[^"]+>\""
+      "Log-Format-Apache": "%{host}<[a-zA-Z0-9.\\-:]+(?:, ?[a-zA-Z0-9.\\-:]+)*> %l %u %t \"%r\" %>s %b \"%{referer}<[^ \"]+>\" \"%{user-agent}<[^\"]+>\""
     }
   },
   "00-fr-istex": {
@@ -394,7 +394,7 @@
       "Log-Format-ezproxy": "%h %l %u %t \"%r\" %s %b %{ezproxy-groups}<[a-zA-Z0-9@.-_%,=+]+>",
       "Crypted-Fields": "host,login"
     }
-  },  
+  },
   "01-fr-univ-limoges": {
     "fullName": "Université de Limoges",
     "country": "France",
@@ -719,5 +719,5 @@
 	  "Geoip": "all",
 	  "Crypted-Fields": "none"
 	}
-  }	
+  }
 }

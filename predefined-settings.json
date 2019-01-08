@@ -69,7 +69,8 @@
       "Force-Parser": "lodel",
       "Force-ECField-Publisher": "Irevues",
       "Disable-Filters": "robots",
-      "Output-Fields": "+pid,+robot,-domain,-online_identifier,-print_identifier,-platform_name,-identd,-doi"
+      "Output-Fields": "+pid,+robot,-domain,-online_identifier,-print_identifier,-platform_name,-identd,-doi",
+      "Log-Format-Apache": "%{host}<[a-zA-Z0-9.\\-:]+(?:, ?[a-zA-Z0-9.\\-:]+)*> %l %u %t \"%r\" %>s %b \"%{referer}<[^ "]+>\" \"%{user-agent}<[^"]+>\""
     }
   },
   "00-fr-istex": {

@@ -73,6 +73,17 @@
       "Log-Format-Apache": "%{host}<[a-zA-Z0-9.\\-:]+(?:, ?[a-zA-Z0-9.\\-:]+)*> %l %u %t \"%r\" %>s %b \"%{referer}<[^ \"]+>\" \"%{user-agent}<[^\"]+>\""
     }
   },
+  "00-fr-inist-irevues-lodel-old": {
+    "fullName": "INIST-CNRS - Irevues - Lodel (jusqu'au 13/11/2018)",
+    "country": "France",
+    "headers": {
+      "Crypted-Fields": "none",
+      "Force-Parser": "lodel",
+      "Force-ECField-Publisher": "Irevues",
+      "Disable-Filters": "robots",
+      "Output-Fields": "+pid,+robot,-domain,-online_identifier,-print_identifier,-platform_name,-identd,-doi"
+    }
+  },
   "00-fr-istex": {
     "fullName": "ISTEX",
     "country": "France",

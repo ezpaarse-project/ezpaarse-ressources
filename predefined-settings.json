@@ -730,5 +730,12 @@
 	  "Geoip": "all",
 	  "Crypted-Fields": "none"
 	}
+    },
+    "01-fr-enpc": {
+    "fullName": "ENPC - Ecole des Ponts ParisTech",
+    "country": "France",
+    "headers": {
+      "Log-Format-ezproxy": "%h %l %u %t \"%r\" %s %b %{unite-ldap}"
+    }    
   }
 }

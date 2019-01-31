@@ -563,7 +563,8 @@
     "country": "France",
     "headers": {
       "Crypted-Fields": "none",
-      "Request-Charset": "iso-8859-1"
+      "Request-Charset": "iso-8859-1",
+      "Log-Format-Apache": "%{timestamp}<[0-9]+>,%h,%b,%<\"?>%{ress-name}<[a-zA-Z0-9+& :,.'éèàç-]+>%<\"?>,%U,%>s,%<\"?>%{mt}<[a-zA-Z0-9+/;= .-]+>%<\"?>,%<\"?>%{profil1}<[a-zA-Z0-9/ _éèàç-]*>%<\"?>,%{uid}<[a-zA-Z0-9]*>,%{session-id}<[a-zA-Z0-9]*>,%<\"?>%{profil2}<[a-zA-Z0-9/ _éèàç-]*>%<\"?>"
     }
   },
   "10-ch-epfl": {
@@ -736,6 +737,6 @@
     "country": "France",
     "headers": {
       "Log-Format-ezproxy": "%h %l %u %t \"%r\" %s %b %{unite-ldap}"
-    }    
+    }
   }
 }

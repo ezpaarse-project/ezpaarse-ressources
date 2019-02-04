@@ -81,7 +81,7 @@
       "Force-Parser": "lodel",
       "Force-ECField-Publisher": "Irevues",
       "Disable-Filters": "robots",
-      "Output-Fields": "+pid,+robot,-domain,-online_identifier,-print_identifier,-platform_name,-identd,-doi"
+      "Output-Fields": "+pid,+robot,-domain,-online_identifier,-print_identifier,-platform_name,-identd"
     }
   },
   "00-fr-istex": {

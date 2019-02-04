@@ -200,7 +200,7 @@
       "Crypted-Fields": "host,login"
     }
   },
-  "00-fr-univ-lemans": {
+  "00-fr-univ-lemans-00": {
     "fullName": "Université du Maine > 24/04/2018",
     "country": "France",
     "headers": {
@@ -210,7 +210,7 @@
       "Sudoc-enrich": "true"
     }
   },
-  "00-fr-univ-lemans-00": {
+  "00-fr-univ-lemans-01": {
     "fullName": "Université du Maine > 24/03/2017 < 24/04/2018",
     "country": "France",
     "headers": {

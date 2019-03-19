@@ -200,6 +200,14 @@
       "Crypted-Fields": "host,login"
     }
   },
+  "00-fr-univ-bordeaux-02": {
+    "fullName": "Université de Bordeaux Montaigne > 19/03/2019",
+    "country": "France",
+    "headers": {
+      "Log-Format-ezproxy": "%h %l %u %t \"%r\" %s %b %{ezproxy-session}%<[\\s]*>%{statusPerson}<[A-Za-z+-]*>%<[\\s]*>%{UFR}<[A-Za-z_+-]*>%<[\\s]*>%{department}<[A-Za-z0-9+-]*>",
+      "Crypted-Fields": "host,login"
+    }
+  },
   "00-fr-univ-lemans-00": {
     "fullName": "Université du Maine > 24/04/2018",
     "country": "France",

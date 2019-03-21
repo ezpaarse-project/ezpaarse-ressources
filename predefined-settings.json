@@ -542,6 +542,14 @@
       "Crypted-Fields": "none"
     }
   },
+  "01-fr-ensam": {
+    "fullName": "ENSAM Arts et Métiers ParisTech",
+    "country": "France",
+    "headers": {
+      "Log-Format-ezproxy": "%h %u %l %t \"%r\" %s %b %{country_code}<[A-Z]+> %{city}<.*>",
+      "Crypted-Fields": "none"
+    }
+  },
   "01-fr-univ-lille-2": {
     "fullName": "Université Lille 2",
     "country": "France",

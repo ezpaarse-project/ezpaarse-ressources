@@ -84,6 +84,21 @@
       "Output-Fields": "+pid,+robot,-domain,-online_identifier,-print_identifier,-platform_name,-identd"
     }
   },
+  "00-fr-panist": {
+    "fullName": "PANIST",
+    "country": "France",
+    "headers": {
+      "EZPAARSE-Filter-Status": "false",
+      "Force-Parser": "istex",
+      "panist-enrich": "true",
+      "panist-ttl": "3600",
+      "Crypted-Fields": "none",
+      "crossref-enrich": "false",
+      "ezPAARSE-Middlewares": "panist, user-agent-parser",
+      "Log-Format-apache": "%h %<\"?>%{istex-id}<[^ ]+?>%<\"?> %<\"?>%{owner}<[^\"]+>%<\"?> %<\"?>%{idp}<[^\"]+>%<\"?> %u %t \"%r\" %{status}<[0-9\\-]+> %b \"%{referer}<[^\"]+>\" \"%{user-agent}<[^\"]+>\" %{sid}<[^ ]+> %<\"?>%{auth}<[^ \"]+>%<\"?>",
+      "Output-Fields": "+login,+istex_rtype,+istex_genre,+ark,-platform,+publisher_name,+language,+publication_date,+subject,-identd,-domain,+doi-publication-date-year"
+    }
+  },
   "00-fr-istex": {
     "fullName": "ISTEX",
     "country": "France",

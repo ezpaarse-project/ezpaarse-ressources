@@ -89,7 +89,7 @@
     "country": "France",
     "headers": {
       "EZPAARSE-Filter-Status": "false",
-      "Force-Parser": "istex",
+      "Force-Parser": "panist",
       "panist-enrich": "true",
       "panist-ttl": "3600",
       "Crypted-Fields": "none",

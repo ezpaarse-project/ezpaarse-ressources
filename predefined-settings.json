@@ -696,6 +696,13 @@
       "Log-Format-ezproxy": "%{datetime}<\\d{4}/\\d{2}/\\d{2}:\\d{2}:\\d{2}:\\d{2}>%<\\t>%h%<\\t>%u%<\\t>%{ezproxy-spuaccess}%<\\t>%{domain}<[a-z.]+>%<\\t>%U%<\\t>%s%<\\t>%{user-agent}<.*>"
     }
   },
+  "10-us-uond": {
+    "fullName": "University of Notre Dame",
+    "country": "United States",
+    "headers": {
+      "Log-Format-ezproxy": "%h%<[\t]>%l%<[\t]>%u%<[\t]>%t%<[\t]>\"%r\"%<[\t]>%s%<[\t]>%b%<[\t]>%{rest}<.*>"
+    }
+  },
   "10-sg-nusl": {
     "fullName": "Singapore Management University",
     "country": "Singapore",

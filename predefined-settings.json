@@ -2,7 +2,7 @@
   "00-00-ezMESURE": {
     "fullName": "ezPAARSE output to ezMESURE input",
     "country": "Generic - preconfiguration",
-    "headers": {
+    "headers": {	
       "Crypted-Fields": "none",
       "Output-Fields": "+id,+pii,+sudoc-ppn,-platform,-identd,-size,-status"
     }
@@ -701,6 +701,13 @@
     "country": "United States",
     "headers": {
       "Log-Format-ezproxy": "%h%<[\t]>%l%<[\t]>%u%<[\t]>%t%<[\t]>\"%r\"%<[\t]>%s%<[\t]>%b%<[\t]>%{rest}<.*>"
+    }
+  },
+  "10-us-uond-old": {
+    "fullName": "University of Notre Dame < 2016",
+    "country": "United States",
+    "headers": {
+      "Log-Format-ezproxy": "%h%<\t>%l%<\t>%u%<\t>%t%<\t>%U%<\t>%<\">%{a}%<[^\t]+>%<\">%<\t>%s%<\t>%b%<\t>%{b}%<[^\t]+>%<\t>%<\">%{c}%<[^\t]+>%<\">"
     }
   },
   "10-sg-nusl": {

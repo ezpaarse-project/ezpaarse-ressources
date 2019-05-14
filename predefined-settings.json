@@ -782,6 +782,12 @@
     "country": "France",
     "headers": {
       "Log-Format-ezproxy": "%h %l %u %t \"%r\" %s %b %{unite-ldap}"
+    },
+    "01-fr-unic-catholille-brut": {
+    "fullName": "Université Catholique de Lille - Format Brut",
+    "country": "France",
+    "headers": {
+      "Log-Format-ezproxy": "%h %l %u %{ezproxy-session}<[a-zA-Z0-9]+> %{from}<[^ ]+> %t \"%r\" %s %b"
     }
   }
 }

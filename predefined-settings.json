@@ -791,4 +791,12 @@
       "Log-Format-ezproxy": "%h %l %u %{ezproxy-session}<[a-zA-Z0-9]+> %{from}<[^ ]+> %t \"%r\" %s %b"
     }
   }
+,
+  "01-fr-univ-catholille-enrichis": {
+    "fullName": "Université Catholique de Lille - Format Enrichi",
+    "country": "France",
+    "headers": {
+      "Log-Format-ezproxy": "%h %l %u %{ezproxy-session}<[a-zA-Z0-9]+> %{from}<[^ ]+> %{ldap1}<[^ ]+> %{ldap2}<[^ ]+> %{hash}<[^ ]+> %t \"%r\" %s %b"
+    }
+  }
 }

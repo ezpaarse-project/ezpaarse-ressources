@@ -765,25 +765,26 @@
       "Crypted-Fields": "none"
     }
   },
-    "01-ro-edulib-museproxy": {
-	"fullName": "MuseKnowledge™ Proxy",
-	"country": "Romania",
-	"headers": {
+  "01-ro-edulib-museproxy": {
+	  "fullName": "MuseKnowledge™ Proxy",
+	  "country": "Romania",
+	  "headers": {
 	    "Log-Format-ezproxy": "%{datetime}<\\d{4}\\-\\d{2}\\-\\d{2} \\d{2}:\\d{2}:\\d{2}>.%<\\d{3}> EET NOTICE: []: connection.id=%l %h %<[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+> \"%r\" %s %b",
-	  "Accept": "text/tab-separated-values",
-	  "COUNTER-Reports": "jr1",
-	  "COUNTER-Format": "tsv",
-	  "Geoip": "all",
-	  "Crypted-Fields": "none"
-	}
-    },
-    "01-fr-enpc": {
+	    "Accept": "text/tab-separated-values",
+	    "COUNTER-Reports": "jr1",
+	    "COUNTER-Format": "tsv",
+	    "Geoip": "all",
+	    "Crypted-Fields": "none"
+	  }
+  },
+  "01-fr-enpc": {
     "fullName": "ENPC - Ecole des Ponts ParisTech",
     "country": "France",
     "headers": {
       "Log-Format-ezproxy": "%h %l %u %t \"%r\" %s %b %{unite-ldap}"
     },
-    "01-fr-unic-catholille-brut": {
+  },
+  "01-fr-univ-catholille-brut": {
     "fullName": "Université Catholique de Lille - Format Brut",
     "country": "France",
     "headers": {

@@ -21,7 +21,8 @@
       "Log-Format-ezproxy": "%h %{ezproxy-session} %l %u %t \"%r\" %s %b %{bib-groups}<[a-zA-Z0-9@\\.\\-_%\\,=\\+]+>",
       "Crypted-Fields": "none",
       "Output-Fields": "+bib-groups",
-      "extract": "login => /^([^_]+)_O_([^_]+)_I_([^_]+)_OU_([^_]+)$/ => user,section,department,unit"
+      "extract": "login => /^([^_]+)_O_([^_]+)_I_([^_]+)_OU_([^_]+)$/ => user,section,department,unit",
+      "ezPAARSE-Middlewares": "ebscohost"
     }
   },
   "00-fr-inist-DCR-false": {

@@ -791,8 +791,15 @@
     "headers": {
       "Log-Format-ezproxy": "%h %l %u %{ezproxy-session}<[a-zA-Z0-9]+> %{from}<[^ ]+> %t \"%r\" %s %b"
     }
-  }
-,
+  },
+  "01-fr-hospices-civil-lyon": {
+    "fullName": "Hospices Civils de Lyon",
+    "country": "FR",
+    "headers": {
+      "Log-Format-ezproxy": "%t %h %l \"%r\" %s %{metier} %{pam}",
+      "Date-Format": "YYYY-MM-DD HH:mm:ss"
+    }
+  },
   "01-fr-univ-catholille-enrichis": {
     "fullName": "Université Catholique de Lille - Format Enrichi",
     "country": "FR",

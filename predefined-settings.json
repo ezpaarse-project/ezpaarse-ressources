@@ -724,7 +724,7 @@
     "headers": {
       "Force-Parser": "sam",
       "Output-Fields": "+pid,+robot,+doi,-domain,-eissn,-title,-login,-print_identifier,-online_identifier,-publication_title,-publication_date,-type,-identd",
-      "ezPAARSE-Middlewares": "bot-ua-detector,trackcode-generator,robots",
+      "ezPAARSE-Middlewares": "bot-ua-detector,robots",
       "Disable-Filters": "all",
       "Crypted-Fields": "none"
     }
@@ -736,7 +736,7 @@
       "Log-Format-ezproxy": "%h %l %{user}<\"?[0-9a-z-]*\"?> %t \"%r\" %s %b \"%{referer}<[^ ]+>\" \"%{user-agent}<.*>\"",
       "Force-Parser": "uoak",
       "Output-Fields": "+pid,+robot,+doi,-domain,-eissn,-title,-login,-print_identifier,-online_identifier,-publication_title,-publication_date,-type,-identd",
-      "ezPAARSE-Middlewares": "bot-ua-detector,trackcode-generator,robots",
+      "ezPAARSE-Middlewares": "bot-ua-detector,robots",
       "Disable-Filters": "all",
       "Crypted-Fields": "none"
     }
@@ -819,6 +819,10 @@
     "country": "FR",
     "headers": {
       "Log-Format-ezproxy": "%h %l %u %{ldap1}<[^ ]+> %{ldap2}<[^ ]+> %{hash}<[^ ]+> %{ezproxy-session}<[a-zA-Z0-9]+> %{from}<[^ ]+> %t \"%r\" %s %b"
+    }
+  }
+}
+om}<[^ ]+> %t \"%r\" %s %b"
     }
   }
 }

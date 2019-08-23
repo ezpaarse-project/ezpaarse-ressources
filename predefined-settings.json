@@ -723,7 +723,21 @@
     "country": "FR",
     "headers": {
       "Force-Parser": "sam",
-      "Output-Fields": "+pid,-domain,-doi,-eissn,-title,-identid",
+      "Output-Fields": "+pid,+robot,+doi,-domain,-eissn,-title,-login,-print_identifier,-online_identifier,-publication_title,-publication_date,-type,-identd",
+      "ezPAARSE-Middlewares": "bot-ua-detector,trackcode-generator,robots",
+      "Disable-Filters": "all",
+      "Crypted-Fields": "none"
+    }
+  },
+  "01-fr-uoak": {
+    "fullName": "Univ OAK : Open Access to Knoledge",
+    "country": "FR",
+    "headers": {
+      "Log-Format-ezproxy": "%h %l %{user}<\"?[0-9a-z-]*\"?> %t \"%r\" %s %b \"%{referer}<[^ ]+>\" \"%{user-agent}<.*>\"",
+      "Force-Parser": "uoak",
+      "Output-Fields": "+pid,+robot,+doi,-domain,-eissn,-title,-login,-print_identifier,-online_identifier,-publication_title,-publication_date,-type,-identd",
+      "ezPAARSE-Middlewares": "bot-ua-detector,trackcode-generator,robots",
+      "Disable-Filters": "all",
       "Crypted-Fields": "none"
     }
   },

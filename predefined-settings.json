@@ -25,6 +25,17 @@
       "ezPAARSE-Middlewares": "ebscohost"
     }
   },
+  "00-fr-bibinserm": {
+    "fullName": "INERM",
+    "country": "FR",
+    "headers": {
+      "Log-Format-ezproxy": "%h %{ezproxy-session} %l %u %t \"%r\" %s %b %{bib-groups}<[a-zA-Z0-9@\\.\\-_%\\,=\\+]+>",
+      "Crypted-Fields": "none",
+      "Output-Fields": "+bib-groups",
+      "extract": "login => /^([^_]+)_O_([^_]+)_I_([^_]+)_OU_([^_]+)_I_([^_]+)_DR_([^_]+)_SITE_([^_]+)$/ => unit1,section,department,unit2,it,loc,site",
+      "ezPAARSE-Middlewares": "ebscohost"
+    }
+  },
   "00-fr-inist-DCR-false": {
     "fullName": "INIST-CNRS DoubleClickRemoval-false",
     "country": "FR",

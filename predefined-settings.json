@@ -26,7 +26,7 @@
     }
   },
   "00-fr-bibinserm": {
-    "fullName": "INERM",
+    "fullName": "INSERM",
     "country": "FR",
     "headers": {
       "Log-Format-ezproxy": "%h %{ezproxy-session} %l %u %t \"%r\" %s %b %{bib-groups}<[a-zA-Z0-9@\\.\\-_%\\,=\\+]+>",

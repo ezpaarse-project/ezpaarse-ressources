@@ -856,5 +856,12 @@
     "headers": {
       "Log-Format-ezproxy": "%h %l %u %t \"%r\" %s %b %{ezproxy-session}<.+?> %{ezproxy-groups}<.+?> %{ezproxy-cnam_supannetablissement}<[^ ]*> %{ezproxy-cnam_eduPersonAffiliation}<[^ ]*> %{ezproxy-cnam_edupersonprimaryaffiliation}<[^ ]*>"
     }
+  },
+  "01-fr-sciences-po-paris": {
+    "fullName": "Sciences Po Paris ez01",
+    "country": "FR",
+    "headers": {
+      "Log-Format-ezproxy": "%h %l %u %t \"%r\" %s %b \"%{referer}<.*?>\" \"%{user-agent}<.*?>\" %{ezproxy-session} %{ezproxy-groups}<[a-zA-Z+.-]+> %{affiliation} %{primary-affiliation} %{protocol} %{resource}<[^\\s]*> %{ezproxy-domain}<[a-zA-Z0-9.:-]+>"
+    }
   }
 }

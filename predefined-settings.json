@@ -328,6 +328,19 @@
       "Log-Format-apache": "%h %l %u %t \"%r\" %>s %b %<.*>"
     }
   },
+  "01-fr-open-edition-01": {
+    "fullName": "Open Edition",
+    "country": "FR",
+    "headers": {
+      "Crypted-Fields": "session_id,user_id",
+      "Output-Fields" : "-login,-on-campus,-identd,-middlewares,-size",
+      "Reject-Files" : "all",
+      "Clean-Only" : "0",
+      "ezPAARSE-Middlewares" : "session-id",
+      "oe-ttl" : "0",
+      "oei-ttl" : "0"
+    }
+  },
   "01-fr-univ-pdb": {
     "fullName": "Université Paris Descartes Bibliopam",
     "country": "FR",

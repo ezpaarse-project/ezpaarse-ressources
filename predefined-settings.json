@@ -856,6 +856,13 @@
       "Date-Format": "YYYY-MM-DD HH:mm:ss"
     }
   },
+  "01-fr-hospices-civil-lyon-02": {
+    "fullName": "Hospices Civils de Lyon - SGOS-NCSA",
+    "country": "FR",
+    "headers": {
+      "Log-Format-apache": "%h %l %u %t %r %>s %b"
+    }
+  },
   "01-fr-univ-catholille-enrichis": {
     "fullName": "Université Catholique de Lille - Format Enrichi",
     "country": "FR",

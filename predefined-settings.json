@@ -778,8 +778,9 @@
     "headers": {
       "Force-Parser": "oatao",
       "Output-Fields": "+pid,+robot,+doi,-domain,-eissn,-title,-login,-print_identifier,-online_identifier,-publication_title,-publication_date,-type,-identd",
-      "ezPAARSE-Middlewares": "bot-ua-detector,robots",
+      "ezPAARSE-Middlewares": "bot-ua-detector,robots,eprints",
       "Disable-Filters": "all",
+      "eprints-domain-name": "https://oatao.univ-toulouse.fr/",
       "Crypted-Fields": "none"
     }
   },
@@ -882,6 +883,18 @@
     "country": "FR",
     "headers": {
       "Log-Format-ezproxy": "%h %l %u %t \"%r\" %s %b \"%{referer}<.*?>\" \"%{user-agent}<.*?>\" %{ezproxy-session} %{ezproxy-groups}<[a-zA-Z+.-]+> %{affiliation} %{primary-affiliation} %{protocol} %{resource}<[^\\s]*> %{ezproxy-domain}<[a-zA-Z0-9.:-]+>"
+    }
+  },
+  "01-fr-eprints": {
+    "fullName": "EPRINTS",
+    "country": "FR",
+    "headers": {
+      "Accept": "text/csv",
+      "Force-Parser": "eprints",
+      "Traces-Level": "info",
+      "Crypted-Fields": "host,login",
+      "ezPAARSE-Middlewares": "eprints",
+      "eprints-domain-name": ""
     }
   }
 }

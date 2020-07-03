@@ -885,7 +885,7 @@
       "Log-Format-ezproxy": "%h %l %u %t \"%r\" %s %b \"%{referer}<.*?>\" \"%{user-agent}<.*?>\" %{ezproxy-session} %{ezproxy-groups}<[a-zA-Z+.-]+> %{affiliation} %{primary-affiliation} %{protocol} %{resource}<[^\\s]*> %{ezproxy-domain}<[a-zA-Z0-9.:-]+>"
     }
   },
-  "00-fr-eprints": {
+  "01-fr-eprints": {
     "fullName": "EPRINTS",
     "country": "FR",
     "headers": {
@@ -894,7 +894,7 @@
       "Traces-Level": "info",
       "Crypted-Fields": "host,login",
       "ezPAARSE-Middlewares": "eprints",
-      "eprints-domain-name": "https://hostname.fr/"
+      "eprints-domain-name": ""
     }
   }
 }

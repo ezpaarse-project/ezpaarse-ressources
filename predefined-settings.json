@@ -22,7 +22,7 @@
       "Crypted-Fields": "none",
       "Output-Fields": "+bib-groups",
       "extract": "login => /^([^_]+)_O_([^_]+)_I_([^_]+)_OU_([^_]+)$/ => user,section,department,unit",
-      "ezPAARSE-Middlewares": "ebscohost"
+      "ezPAARSE-Middlewares": "ebscohost,populate"
     }
   },
   "00-fr-bibinserm": {
@@ -33,7 +33,7 @@
       "Crypted-Fields": "none",
       "Output-Fields": "+bib-groups",
       "extract": "login => /^([^_]+)_O_([^_]+)_I_([^_]+)_OU_([^_]+)_I_([^_]+)_DR_([^_]+)_SITE_([^_]+)$/ => unit1,section,department,unit2,it,loc,site",
-      "ezPAARSE-Middlewares": "ebscohost"
+      "ezPAARSE-Middlewares": "ebscohost,populate"
     }
   },
   "00-fr-inist-DCR-false": {

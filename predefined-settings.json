@@ -19,7 +19,7 @@
     "country": "FR",
     "headers": {
       "Log-Format-ezproxy": "%h %{ezproxy-session} %l %u %t \"%r\" %s %b %{bib-groups}<[a-zA-Z0-9@\\.\\-_%\\,=\\+]+>",
-      "Crypted-Fields": "none",
+      "Crypted-Fields": "login,user",
       "Output-Fields": "+bib-groups",
       "extract": "login => /^([^_]+)_O_([^_]+)_I_([^_]+)_OU_([^_]+)$/ => user,section,department,unit",
       "ezPAARSE-Middlewares": "ebscohost,populate"
@@ -34,31 +34,6 @@
       "Output-Fields": "+bib-groups",
       "extract": "login => /^([^_]+)_O_([^_]+)_I_([^_]+)_OU_([^_]+)_I_([^_]+)_DR_([^_]+)_SITE_([^_]+)$/ => unit1,section,department,unit2,it,loc,site",
       "ezPAARSE-Middlewares": "ebscohost,populate"
-    }
-  },
-  "00-fr-inist-DCR-false": {
-    "fullName": "INIST-CNRS DoubleClickRemoval-false",
-    "country": "FR",
-    "headers": {
-      "Crypted-Fields": "none",
-      "Double-Click-Removal": "false"
-    }
-  },
-  "00-fr-inist-DCMixed10": {
-    "fullName": "INIST-CNRS DoubleClikMixed-10",
-    "country": "FR",
-    "headers": {
-      "Crypted-Fields": "none",
-      "Output-Fields": "+datetime",
-      "Double-Click-MIXED": "10"
-    }
-  },
-  "00-fr-inist-Datetime": {
-    "fullName": "INIST-CNRS +Datetime",
-    "country": "FR",
-    "headers": {
-      "Crypted-Fields": "none",
-      "Output-Fields": "+datetime,-doi"
     }
   },
   "00-fr-inist-irevues-dspace": {

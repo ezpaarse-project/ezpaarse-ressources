@@ -859,7 +859,7 @@
       "Log-Format-ezproxy": "%h %l %u %t \"%r\" %s %b \"%{referer}<.*?>\" \"%{user-agent}<.*?>\" %{ezproxy-session} %{ezproxy-groups}<[a-zA-Z+.-]+> %{affiliation} %{primary-affiliation} %{protocol} %{resource}<[^\\s]*> %{ezproxy-domain}<[a-zA-Z0-9.:-]+>"
     }
   },
-  "01-fr-univ-usb-01": {
+  "01-fr-univ-ubs-01": {
     "fullName": "Université Bretagne Sud",
     "country": "FR",
     "headers": {

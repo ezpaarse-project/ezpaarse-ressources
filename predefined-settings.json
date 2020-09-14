@@ -174,7 +174,7 @@
     "fullName": "Université Savoie Mont Blanc",
     "country": "FR",
     "headers": {
-      "Log-Format-ezproxy": "%{datesyslog}<[\\w\\ ]+> %{heure_syslog}<[\\d:]+\\w> %{serveur_grenet}<\\w+> %{ezproxy_instance}<[\\w-]+>%<: >%{site}<[a-z-0-9.]+>%<:[0-9]+> %h %{ezproxy-groups}<[\\w+\\-.]+> %{ezproxy-session}<[\\w-_]+> %u %t \"%r\" %s %b",
+      "Log-Format-ezproxy": "%{datesyslog}<[\\w\\ ]+> %{heure_syslog}<[\\d:]+\\w> %{serveur_grenet}<[\\w-]+> %{ezproxy_instance}<[\\w-]+>%<: >%{site}<[a-z-0-9.]+>%<:[0-9]+> %h %{ezproxy-groups}<[\\w+\\-.]+> %{ezproxy-session}<[\\w-_]+> %u %t \"%r\" %s %b",
       "Crypted-Fields": "host,login"
     }
   },

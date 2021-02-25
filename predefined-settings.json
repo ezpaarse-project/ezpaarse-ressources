@@ -866,5 +866,14 @@
       "Log-Format-ezproxy": "%h %l %{session}<.*> - %u - %t \"%r\" %s %b - %<[\\[']{0,2}>%{code_centregestion}<[0-9A-Za-z]*>%<[;]?>%{code_composante}<[0-9]*>%<[;]?>%{code_etape}<[0-9A-Za-z]*>%<[;]?>%<[ville=]{0,6}>%{ville}<[A-Za-z]*>%<[;]?>%<[\\]']{0,2}> %<[- ]*>%<[\\[']?>%{code_structure}<[0-9A-Za-z]*>%<[, ']*>%{code_labo}<[0-9A-Za-z]*>%<[', 0-9A-Za-z\\]]*>",
       "Crypted-Fields": "host,login"
     }
+  },
+  "01-fr-univ-bordeaux-01": {
+    "fullName": "Université Bordeaux",
+    "country": "FR",
+    "headers": {
+      "Log-Format-ezproxy": "%h %{ezproxy-session} %u %t \"%r\" %s %b \"%{affiliation}<[a-z:0-9]*>\" \"%{dept}<[0-9]*>\" \"%{labo}<[0-9]*>\" \"%{niveau}<[0-9a-zA-Z]*>\" \"%{college}<[0-9]*>\" \"%{UF}<[0-9]*>\" \"%{etape}<[a-z:0-9]*>\"",
+      "Crypted-Fields": "host,login"
+    }
   }
+  
 }

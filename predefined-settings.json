@@ -158,7 +158,7 @@
     "fullName": "Université Picardie Jules Verne",
     "country": "FR",
     "headers": {
-      "Log-Format-ezproxy": "%h %{ezproxy-session} %t \"%r\" %s %b %{categ}<[^ ]+> %{niveau}<[^ ]+> %{affect}<[^ ]+>",
+      "Log-Format-ezproxy": "%h %{ezproxy-session} %t \"%r\" %s %b %{categ}<[^ ]+> %{niveau}<[^ ]+> \"%{affect}<[^\"]+>\"",
       "Crypted-Fields": "none"
     }
   },

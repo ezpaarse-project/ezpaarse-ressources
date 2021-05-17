@@ -182,7 +182,7 @@
     "fullName": "Université Savoie Mont Blanc Hebergé",
     "country": "FR",
     "headers": {
-      "Log-Format-ezproxy": "%h %l %{ezproxy-session}<\\w+> %t \"%r\" %s %b \"%{ezproxy-groups}<[\\w+\\-.]+>\" \"%{referer}<[^ ]+>\" \"%{user-agent}<.*>\"",
+      "Log-Format-ezproxy": "%h %l %{ezproxy-session}<[\\w+\\-.]+> %t \"%r\" %s %b \"%{ezproxy-groups}<[\\w+\\-.]+>\" \"%{referer}<[^ ]+>\" \"%{user-agent}<.*>\"",
       "Crypted-Fields": "host,login"
     }
   },

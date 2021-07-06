@@ -381,8 +381,18 @@
       "Crypted-Fields": "none"
     }
   },
-  "01-fr-univ-lyon-3": {
+  "01-fr-univ-lyon-3" : {
     "fullName": "Université Lyon 3",
+    "country": "FR",
+    "headers": {
+      "Accept": "text/csv",
+      "Traces-Level": "info",
+      "Log-Format-ezproxy": "%t %h %l %u %l \"%r\" %s %b \"%{user-agent}<.*>\"",
+      "Crypted-Fields": "none"
+    }
+  },
+  "01-fr-univ-lyon-3-02": {
+    "fullName": "Université Lyon 3 ( < 06/07/2021)",
     "country": "FR",
     "headers": {
       "Log-Format-ezproxy": "%t %h - %u %l \"%r\" %s %b",

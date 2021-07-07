@@ -874,6 +874,13 @@
     "fullName": "Sciences Po Paris ez01",
     "country": "FR",
     "headers": {
+      "Log-Format-ezproxy": "%h %l %{session-uid}<.*> %u %t \"%r\" %s %b \"%{referer}<.*>\" \"%{user-agent}<.*>\" %{ezproxy-session} %{ezproxy-groups}<.*> %{ezproxy-usrvar1}<.*> %{ezproxy-usrvar2}i %{ezproxy-protocol}i %{ezproxy-url1}i %{v}<.*>"
+      }
+  },
+  "01-fr-sciences-po-paris-02": {
+    "fullName": "Sciences Po Paris (<2021/07/07)",
+    "country": "FR",
+    "headers": {
       "Log-Format-ezproxy": "%h %l %u %t \"%r\" %s %b \"%{referer}<.*?>\" \"%{user-agent}<.*?>\" %{ezproxy-session} %{ezproxy-groups}<[a-zA-Z+.-]+> %{affiliation} %{primary-affiliation} %{protocol} %{resource}<[^\\s]*> %{ezproxy-domain}<[a-zA-Z0-9.:-]+>"
     }
   },

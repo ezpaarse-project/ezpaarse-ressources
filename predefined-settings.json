@@ -316,12 +316,12 @@
     "country": "FR",
     "headers": {
       "Crypted-Fields": "session_id,user_id",
-      "Output-Fields" : "-login,-on-campus,-identd,-middlewares,-size",
-      "Reject-Files" : "all",
-      "Clean-Only" : "0",
-      "ezPAARSE-Middlewares" : "session-id",
-      "oe-ttl" : "0",
-      "oei-ttl" : "0"
+      "Output-Fields": "-login,-on-campus,-identd,-middlewares,-size",
+      "Reject-Files": "all",
+      "Clean-Only": "0",
+      "ezPAARSE-Middlewares": "session-id",
+      "oe-ttl": "0",
+      "oei-ttl": "0"
     }
   },
   "01-fr-univ-pdb": {
@@ -381,7 +381,7 @@
       "Crypted-Fields": "none"
     }
   },
-  "01-fr-univ-lyon-3" : {
+  "01-fr-univ-lyon-3": {
     "fullName": "Université Lyon 3",
     "country": "FR",
     "headers": {
@@ -415,7 +415,7 @@
       "Crypted-Fields": "none"
     }
   },
- "01-fr-univ-toulouse-3": {
+  "01-fr-univ-toulouse-3": {
     "fullName": "Université de Toulouse 3 BiblioPAM",
     "country": "FR",
     "headers": {
@@ -501,12 +501,12 @@
       "Crypted-Fields": "none"
     }
   },
-    "01-fr-univ-paris-sud-squid": {
+  "01-fr-univ-paris-sud-squid": {
     "fullName": "Université Paris Sud - Squid",
     "country": "FR",
-      "headers": {
-	"Log-Format-squid": "%tl %{response_time}<[0-9a-z-A-Z]+> %>a %Ss/%>Hs %<st %rm %ru - %Sh/%<a %mt",
-        "Crypted-Fields": "none"
+    "headers": {
+      "Log-Format-squid": "%tl %{response_time}<[0-9a-z-A-Z]+> %>a %Ss/%>Hs %<st %rm %ru - %Sh/%<a %mt",
+      "Crypted-Fields": "none"
     }
   },
   "01-fr-univ-pec": {
@@ -546,7 +546,7 @@
     "country": "FR",
     "headers": {
       "Log-Format-apache": "%{epoch},%h,%b,%{ress-name}<\"?[a-zA-Z0-9-/ �']+\"?>,%U,%>s,%{mt}<[a-zA-Z0-9-/ ;=\".+]+>,%{profil}<.+>,%{uid},%{session-id},",
-    "Crypted-Fields": "none"
+      "Crypted-Fields": "none"
     }
   },
   "01-fr-univ-vsq-reject-all": {
@@ -554,8 +554,8 @@
     "country": "FR",
     "headers": {
       "Log-Format-apache": "%{epoch},%h,%b,%{ress-name}<\"?[a-zA-Z0-9-/ �']+\"?>,%U,%>s,%{mt}<[a-zA-Z0-9-/ ;=\".+]+>,%{profil}<.+>,%{uid},%{session-id},",
-    "Crypted-Fields": "none",
-    "Reject-Files": "all"
+      "Crypted-Fields": "none",
+      "Reject-Files": "all"
     }
   },
   "01-fr-univ-vhc": {
@@ -697,7 +697,7 @@
     "fullName": "Emory University",
     "country": "US",
     "headers": {
-      "Log-Format-ezproxy":"%h %{ezproxy-session}i %u %t \"%r\" %s %b %{referer}<[^ ]+> %{ezproxy-groups}<[a-zA-Z0-9+]+>"
+      "Log-Format-ezproxy": "%h %{ezproxy-session}i %u %t \"%r\" %s %b %{referer}<[^ ]+> %{ezproxy-groups}<[a-zA-Z0-9+]+>"
     }
   },
   "10-us-loy": {
@@ -816,16 +816,16 @@
     }
   },
   "01-ro-edulib-museproxy": {
-	  "fullName": "MuseKnowledge™ Proxy",
-	  "country": "RO",
-	  "headers": {
-	    "Log-Format-ezproxy": "%{datetime}<\\d{4}\\-\\d{2}\\-\\d{2} \\d{2}:\\d{2}:\\d{2}>.%<\\d{3}> EET NOTICE: []: connection.id=%l %h %<[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+> \"%r\" %s %b",
-	    "Accept": "text/tab-separated-values",
-	    "COUNTER-Reports": "jr1",
-	    "COUNTER-Format": "tsv",
-	    "Geoip": "all",
-	    "Crypted-Fields": "none"
-	  }
+    "fullName": "MuseKnowledge™ Proxy",
+    "country": "RO",
+    "headers": {
+      "Log-Format-ezproxy": "%{datetime}<\\d{4}\\-\\d{2}\\-\\d{2} \\d{2}:\\d{2}:\\d{2}>.%<\\d{3}> EET NOTICE: []: connection.id=%l %h %<[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+> \"%r\" %s %b",
+      "Accept": "text/tab-separated-values",
+      "COUNTER-Reports": "jr1",
+      "COUNTER-Format": "tsv",
+      "Geoip": "all",
+      "Crypted-Fields": "none"
+    }
   },
   "01-fr-enpc": {
     "fullName": "ENPC - Ecole des Ponts ParisTech",
@@ -875,7 +875,7 @@
     "country": "FR",
     "headers": {
       "Log-Format-ezproxy": "%h %l %{session-uid}<.*> %u %t \"%r\" %s %b \"%{referer}<.*>\" \"%{user-agent}<.*>\" %{ezproxy-session} %{ezproxy-groups}<.*> %{ezproxy-usrvar1}<.*> %{ezproxy-usrvar2}i %{ezproxy-protocol}i %{ezproxy-url1}<.*> %{v}<.*>"
-      }
+    }
   },
   "01-fr-sciences-po-paris-02": {
     "fullName": "Sciences Po Paris (<2021/07/07)",
@@ -906,6 +906,16 @@
       "Log-Format-ezproxy": "%h %{ezproxy-session} %u %t \"%r\" %s %b \"%{affiliation}<[a-z:0-9]*>\" \"%{dept}<[0-9]*>\" \"%{labo}<[0-9]*>\" \"%{niveau}<[0-9a-zA-Z]*>\" \"%{college}<[0-9]*>\" \"%{UF}<[0-9]*>\" \"%{etape}<[a-z:0-9]*>\"",
       "Crypted-Fields": "host,login"
     }
+  },
+  "01-fr-paris-saclay-01": {
+    "fullName": "Paris-Saclay",
+    "country": "FR",
+    "headers": {
+      "Accept": "text/csv",
+      "Traces-Level": "info",
+      "Log-Format-ezproxy": "%h %l %u %{ezproxy-session}i %t \"%r\" %s %b",
+      "Crypted-Fields": "host,login",
+      "Extract": "login => split(@) => identifiant, domainName"
+    }
   }
-
 }

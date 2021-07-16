@@ -916,7 +916,7 @@
       "Log-Format-ezproxy": "%h %l %u %{ezproxy-session}i %t \"%r\" %s %b",
       "Crypted-Fields": "host,login",
       "ezPAARSE-Middlewares": "(before cut) populate",
-      "Extract": "login => /(.*)@([^\\.]*)?\\.?([^\\.]*)\\.(psl\\.eu)/ => identifiant, domainName",
+      "Extract": "login => /(.*)@([^\\.]*)?\\.?([^\\.]*)\\.?(psl)(\\.eu)/ => identifiant, domainName",
       "populate-fields": "{\"domainName\" : \"psl\"}"
     }
   }

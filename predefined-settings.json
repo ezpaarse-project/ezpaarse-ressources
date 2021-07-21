@@ -388,7 +388,7 @@
       "Accept": "text/csv",
       "Traces-Level": "info",
       "Log-Format-ezproxy": "%t %h %l %u %l \"%r\" %s %b \"%{user-agent}<.*>\"",
-      "Crypted-Fields": "none"
+      "Crypted-Fields": "host,login"
     }
   },
   "01-fr-univ-lyon-3-02": {

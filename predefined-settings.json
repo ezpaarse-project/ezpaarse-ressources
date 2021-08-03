@@ -932,5 +932,15 @@
       "Extract": "login => /(.*)@([^\\.]*)?\\.?([^\\.]*)\\.?(psl)(\\.eu)/ => identifiant, domainName",
       "populate-fields": "{\"domainName\" : \"psl\"}"
     }
+  },
+  "01-fr-univ-nc-01": {
+    "fullName": "Université Nouvelle Calédonie",
+    "country": "FR",
+    "headers": {
+      "Accept": "text/csv",
+      "Traces-Level": "info",
+      "Log-Format-ezproxy": "%h %l %u %t \"%r\" %s %b %{code_type_ind}<[^ ]*> %{d}<[^ ]*> %{c}<[^ ]*> %{n}<[^ ]*> %{s}<.*>",
+      "Crypted-Fields": "host,login"
+    }
   }
 }

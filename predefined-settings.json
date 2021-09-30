@@ -73,6 +73,20 @@
       "Log-Format-Apache": "%{host}<[a-zA-Z0-9.\\-:]+(?:, ?[a-zA-Z0-9.\\-:]+)*> %l %u %t \"%r\" %>s %b \"%{referer}<[^ \"]+>\" \"%{user-agent}<[^\"]+>\""
     }
   },
+  "01-fr-ezunpawall-01": {
+    "fullName": "ezUnpaywall",
+    "country": "FR",
+    "headers": {
+      "Crypted-Fields": "none",
+      "Accept": "text/csv",
+      "Force-Parser": "ezupw",
+      "Force-ECField-Publisher": "ezUnpaywall",
+      "Traces-Level": "info",
+      "Log-Format-ezproxy": "%h \"%u\" %t \"%r\" %s %b %<[^ ]*> %<[^ ]*> %{doi_count}<[^ ]*>",
+      "Double-Click-Removal": "false",
+      "Output-Fields": "+sid,-print_identifier,-online_identifier,-title_id,-publication_title,-unitid,-domain,-on_campus"
+    }
+  },
   "00-fr-inist-irevues-lodel-old": {
     "fullName": "INIST-CNRS - Irevues - Lodel (jusqu'au 13/11/2018)",
     "country": "FR",

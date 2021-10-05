@@ -222,6 +222,14 @@
       "Crypted-Fields": "none"
     }
   },
+  "00-fr-univ-grenoble-02": {
+    "fullName": "Université de Grenoble-Alpes",
+    "country": "FR",
+    "headers": {
+      "Log-Format-ezproxy": "%{datesyslog}<[\\w\\ ]+> %{heure_syslog}<[\\d:]+\\w> %{serveur_grenet}<[\\w-]+> %{ezproxy_instance}<[\\w-]+>%<: >%{site}<[a-z-0-9.]+>%<:[0-9]+> %h %{ezproxy-groups}<[\\w+\\-.]+> %{ezproxy-session}<[\\w-_]+> %u %t \"%r\" %s %b %{etablissement}<[\\w\\-_]+> %{statut}<[\\w\\-_]+> %{formation}<[\\w\\-_.]+> %{structure}<[\\w\\-_.]+> %{niveau}<[\\w\\-_.]+> %{discipline}<[\\w\\-_.]+>>",
+      "Crypted-Fields": "host,login"
+    }
+  },
   "00-fr-univ-grenoble-01": {
     "fullName": "Université de Grenoble - log enrichis",
     "country": "FR",

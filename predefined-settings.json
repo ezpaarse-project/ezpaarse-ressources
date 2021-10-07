@@ -73,7 +73,7 @@
       "Log-Format-Apache": "%{host}<[a-zA-Z0-9.\\-:]+(?:, ?[a-zA-Z0-9.\\-:]+)*> %l %u %t \"%r\" %>s %b \"%{referer}<[^ \"]+>\" \"%{user-agent}<[^\"]+>\""
     }
   },
-  "01-fr-ezunpawall-01": {
+  "01-fr-ezunpaywall-01": {
     "fullName": "ezUnpaywall",
     "country": "FR",
     "headers": {

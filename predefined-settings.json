@@ -82,7 +82,7 @@
       "Force-Parser": "ezupw",
       "Force-ECField-Publisher": "ezUnpaywall",
       "Traces-Level": "info",
-      "Log-Format-apache": "%h \"%{login}<[a-zA-Z0-9@\\.\\-_%,=\\&\ ]+>\" %t \"%r\" %>s %b \"%{referer}<[^\"]*>\" \"%{user-agent}<[^\"]*>\" %{doi_count}<[^ ]*>",
+      "Log-Format-apache": "%h \"%{login}<[a-zA-Z0-9@\\.\\-_%,=\\&\\ ]+>\" %t \"%r\" %>s %b \"%{referer}<[^\"]*>\" \"%{user-agent}<[^\"]*>\" %{doi_count}<[^ ]*>",
       "Double-Click-Removal": "false",
       "ezPAARSE-Middlewares": "populate,user-agent-parser",
       "Output-Fields": "+sid,-print_identifier,-online_identifier,-publication_title,-unitid,-domain,-on_campus"

@@ -965,5 +965,16 @@
       "Log-Format-ezproxy": "%h %l %u %t \"%r\" %s %b %{code_type_ind}<[^ ]*> %{d}<[^ ]*> %{c}<[^ ]*> %{n}<[^ ]*> %{s}<.*>",
       "Crypted-Fields": "host,login"
     }
+  },
+  "00-fr-omeka": {
+    "fullName": "Omeka",
+    "country": "FR",
+    "headers": {
+      "Accept": "text/csv",
+      "Force-Parser": "omeka",
+      "Traces-Level": "info",
+      "Log-Format-apache": "%h %l %u %t \"%r\" %>s %b %<\\s*>\"%{referrer}<.*?>\" \"%{user-agent}<.*?>\"",
+      "Crypted-Fields": "host,login"
+    }
   }
 }

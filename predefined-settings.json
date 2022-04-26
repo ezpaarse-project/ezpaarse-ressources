@@ -975,7 +975,7 @@
       "Traces-Level": "info",
       "Log-Format-apache": "%h %l %u %t \"%r\" %>s %b %<\\s*>\"%{referrer}<.*?>\" \"%{user-agent}<.*?>\"",
       "Crypted-Fields": "host,login",
-      "ezPAARSE-Middlewares": "omeka"
+      "ezPAARSE-Middlewares": "omeka, populate"
     }
   }
 }

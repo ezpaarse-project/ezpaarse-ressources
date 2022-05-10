@@ -881,7 +881,7 @@
     "fullName": "Hospices Civils de Lyon",
     "country": "FR",
     "headers": {
-      "Log-Format-ezproxy": "%t %h %l \"%r\" %s %{metier} %{pam}",
+      "Log-Format-ezproxy": "%t;%h;%{cs-auth-group}<[^ ]+>;%U;%{s-action}<.*>;%u;%{metier}<[.'_\\-a-zA-Z, ]+>;%{pam}<[\\-a-zA-Z ]+>",
       "Date-Format": "YYYY-MM-DD HH:mm:ss"
     }
   },

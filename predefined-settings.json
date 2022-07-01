@@ -126,7 +126,7 @@
       "crossref-enrich": "false",
       "ezPAARSE-Middlewares": "(before istex) user-agent-parser",
       "Log-Format-apache": "%h %<\"?>%{istex-id}<[^ ]+?>%<\"?> %<\"?>%{owner}<[^\"]+>%<\"?> %<\"?>%{idp}<[^\"]+>%<\"?> %u %t \"%r\" %{status}<[0-9\\-]+> %b \"%{referer}<[^\"]+>\" \"%{user-agent}<[^\"]+>\" %{sid}<[^ ]+> %<\"?>%{auth}<[^ \"]+>%<\"?>",
-      "Output-Fields": "+login,+istex_rtype,+istex_genre,+ark,-platform,+publisher_name,+language,+publication_date,+subject,-identd,-domain,+doi-publication-date-year"
+      "Output-Fields": "+login,+istex_rtype,+istex_genre,+ark,-platform,+publisher_name,+language,+publication_date,+subject,-identd,-domain,+doi-publication-date-year,+istex_bundle_size"
     }
   },
   "00-fr-istex-1": {
@@ -141,7 +141,7 @@
       "crossref-enrich": "false",
       "ezPAARSE-Middlewares": "(before istex) user-agent-parser",
       "Log-Format-apache": "%h %<\"?>%{istex-id}<[^ ]+?>%<\"?> %<\"?>%{owner}<[^\"]+>%<\"?> %u %t \"%r\" %{status}<[0-9]+> %b \"%{referer}<[^\"]+>\" \"%{user-agent}<[^\"]+>\" %{sid}<[^ ]+>",
-      "Output-Fields": "+login,+istex_rtype,+istex_genre,+ark,-platform,+publisher_name,+language,+publication_date,+subject,-identd,-domain,+doi-publication-date-year"
+      "Output-Fields": "+login,+istex_rtype,+istex_genre,+ark,-platform,+publisher_name,+language,+publication_date,+subject,-identd,-domain,+doi-publication-date-year,+istex_bundle_size"
     }
   },
   "00-fr-istex-2": {
@@ -154,7 +154,7 @@
       "istex-ttl": "3600",
       "Crypted-Fields": "none",
       "crossref-enrich": "false",
-      "Output-Fields": "+login,+istex_rtype,+istex_genre,+ark,-platform,+publisher_name,+language,+publication_date,+subject,-identd,-domain,+doi-publication-date-year"
+      "Output-Fields": "+login,+istex_rtype,+istex_genre,+ark,-platform,+publisher_name,+language,+publication_date,+subject,-identd,-domain,+doi-publication-date-year,+istex_bundle_size"
     }
   },
   "00-fr-univ-lorr": {
@@ -881,7 +881,7 @@
     "fullName": "Hospices Civils de Lyon",
     "country": "FR",
     "headers": {
-      "Log-Format-ezproxy": "%t %h %l \"%r\" %s %{metier} %{pam}",
+      "Log-Format-ezproxy": "%t;%h;%{cs-auth-group}<[^ ]+>;%U;%{s-action}<.*>;%u;%{metier}<[.'_\\-a-zA-Z, ]+>;%{pam}<[\\-a-zA-Z ]+>",
       "Date-Format": "YYYY-MM-DD HH:mm:ss"
     }
   },
@@ -975,7 +975,8 @@
       "Traces-Level": "info",
       "Log-Format-apache": "%h %l %u %t \"%r\" %>s %b %<\\s*>\"%{referrer}<.*?>\" \"%{user-agent}<.*?>\"",
       "Crypted-Fields": "host,login",
-      "ezPAARSE-Middlewares": "omeka"
+      "ezPAARSE-Middlewares": "omeka, populate",
+      "Output-Fields": "+ark"
     }
   },
   "00-fr-doranum": {

@@ -18,17 +18,6 @@
     "fullName": "INIST-BIBCNRS",
     "country": "FR",
     "headers": {
-      "Log-Format-ezproxy": "%h %{ezproxy-session} %l %u %t \"%r\" %s %b %{bib-groups}<[a-zA-Z0-9@\\.\\-_%\\,=\\+]+>",
-      "Crypted-Fields": "login,user",
-      "Output-Fields": "+bib-groups",
-      "extract": "login => /^([^_]+)_O_([^_]+)_I_([^_]+)_OU_([^_]+)$/ => user,section,department,unit",
-      "ezPAARSE-Middlewares": "ebscohost,populate"
-    }
-  },
-  "00-fr-bibcnrs-ezunpaywall": {
-    "fullName": "INIST-BIBCNRS-EZUNPAYWALL",
-    "country": "FR",
-    "headers": {
       "Accept": "text/csv",
       "Traces-Level": "info",
       "Log-Format-ezproxy": "%h %{ezproxy-session} %l %u %t \"%r\" %s %b %{bib-groups}<[a-zA-Z0-9@\\.\\-_%\\,=\\+]+>",

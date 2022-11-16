@@ -979,5 +979,44 @@
       "Crypted-Fields": "host,login",
       "ezPAARSE-Middlewares": "datacite, user-agent-parser"
     }
+  },
+  "01-fr-open-edition-02": {
+    "fullName": "Open Edition 02",
+    "country": "FR",
+    "headers": {
+      "Accept": "text/csv",
+      "Traces-Level": "info",
+      "Log-Format-apache": "%h %l %u %t \"%r\" %>s %b \"%{referer}<.*?>\" \"%{user-agent}<.*?>\" \"%{delivered_content}\"",
+      "Crypted-Fields": "session_id,user_id",
+      "Output-Fields": "-login,-on-campus,-identd,-middlewares,-size,-host,-domain",
+      "ezPAARSE-Middlewares": "session-id",
+      "Reject-Files": "all",
+      "Clean-Only": "0",
+      "oe-ttl": "604800",
+      "oei-ttl": "604800",
+      "oe-cache": "true",
+      "oei-cache": "true",
+      "oe-packet-size": "10",
+      "oei-packet-size": "5",
+      "oe-buffer-size": "100",
+      "oei-buffer-size": "100",
+      "ezPAARSE-Filter-Status": "200,304,401",
+      "oeat-ttl": "604800",
+      "oeat-cache": "true",
+      "oeat-packet-size": "20",
+      "oeat-buffer-size": "100",
+      "filter-platforms": "oe"
+    }
+  },
+  "00-fr-jle": {
+    "fullName": "JLE",
+    "country": "FR",
+    "headers": {
+      "Accept": "text/csv",
+      "Force-Parser": "jle",
+      "Traces-Level": "info",
+      "Log-Format-ezproxy": "%h %l %u %t \"%r\" %s %b \"%{referrer}<.*?>\" \"%{user-agent}<.*?>\" %{response-time}<[0-9.]+> \"%<.*?>\"",
+      "Crypted-Fields": "host,login"
+    }
   }
 }

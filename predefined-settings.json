@@ -978,7 +978,7 @@
       "Log-Format-apache": "%h %l %u %t \"%r\" %>s %b %<\\s*>\"%{referrer}<.*?>\" \"%{user-agent}<.*?>\"",
       "Crypted-Fields": "host,login",
       "Output-Fields": "+ark",
-      "ezPAARSE-Middlewares": "populate, omekas, user-agent-parser",
+      "ezPAARSE-Middlewares": "populate, omekas, user-agent-parser"
     }
   },
   "00-fr-doranum": {

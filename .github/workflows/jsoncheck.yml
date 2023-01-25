@@ -14,4 +14,4 @@ jobs:
       - name: json-syntax-check
         uses: limitusus/json-syntax-check@v1
         with:
-          pattern: "predefined-settings.json"
+          pattern: "\\.json$"

@@ -1041,5 +1041,38 @@
       "Log-Format-ezproxy": "%h %l %l %t \"%r\" %s %b %{etudiant}<[a-zA-Z0-9\\-\\+]+>",
       "Crypted-Fields": "host,login"
     }
+  },
+  "00-fr-prairial": {
+    "fullName": "Publications Prairial",
+    "country": "FR",
+    "headers": {
+      "Accept": "text/csv",
+      "Traces-Level": "info",
+      "Crypted-Fields": "host,login",
+      "ezPAARSE-Middlewares": "(before filter) populate",
+      "Populate-Fields": "{ \"domain\": \"publications-prairial.fr\" }"
+    }
+  },
+  "00-fr-prairial-rifrancophonies": {
+    "fullName": "Rifrancophonies",
+    "country": "FR",
+    "headers": {
+      "Accept": "text/csv",
+      "Traces-Level": "info",
+      "Crypted-Fields": "host,login",
+      "ezPAARSE-Middlewares": "(before filter) populate",
+      "Populate-Fields": "{ \"domain\": \"rifrancophonies.com\" }"
+    }
+  },
+  "00-fr-prairial-alyoda": {
+    "fullName": "Alyoda",
+    "country": "FR",
+    "headers": {
+      "Accept": "text/csv",
+      "Traces-Level": "info",
+      "Crypted-Fields": "host,login",
+      "ezPAARSE-Middlewares": "(before filter) populate",
+      "Populate-Fields": "{ \"domain\": \"alyoda.eu\" }"
+    }
   }
 }

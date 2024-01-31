@@ -774,6 +774,7 @@
       "Force-Parser": "sam",
       "Output-Fields": "+pid,+robot,+doi,-domain,-eissn,-title,-login,-print_identifier,-online_identifier,-publication_title,-publication_date,-type,-identd",
       "ezPAARSE-Middlewares": "bot-ua-detector,robots",
+      "ezPAARSE-Enrich": "false",
       "Disable-Filters": "all",
       "Crypted-Fields": "none"
     }
